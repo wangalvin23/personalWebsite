@@ -6,13 +6,43 @@
   padding: 0;
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
 body {
   min-height: 100vh;
   background: linear-gradient(45deg, #0dd6cc, #0dd66e);
   font-size: 30px;
+}
+
+.container {
+  margin: auto;
+  max-width: 100%;
+  width: 1024px;
+}
+
+.title {
+  padding: 100px 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.header {
+  font-size: 20px;
+  padding: 50px 20px;
+}
+
+.pictures {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.picq {
+  width: calc(100% / 3);
+  padding: 10px;
+}
+
+.picq > img {
+  display: block;
+  width: 100%;
 }
