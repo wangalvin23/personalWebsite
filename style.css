@@ -54,15 +54,19 @@ h3 {
   height: 64px;
 }
 
-.navelement {
+.navbar > .navcontainer > a > .navelement {
   display: flex;
   align-items: center;
+  transition-property: all;
+  transition-duration: 400ms;
   height: 100%;
   padding: 0px 24px;
 }
 
 .navbar > .navcontainer > a > .navelement:hover {
   background-color: rgba(164, 74, 255, 0.075);
+  color: #e3aa10;
+  font-size: 120%;
 }
 
 .navelement > h3 {
