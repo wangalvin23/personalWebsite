@@ -12,10 +12,10 @@
 }
 
 body {
-  min-height: 100vh;
   background: #fafcff;
-  font-size: 24px;
   font-family: "Lato", sans-serif;
+  font-size: 24px;
+  min-height: 100vh;
 }
 
 h1,
@@ -23,13 +23,21 @@ h2,
 h3 {
   font-family: "Jost", sans-serif;
 }
-.navcontainer {
+
+.navbar > .navcontainer > a {
   display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  height: 100%;
+}
+.navcontainer {
   margin: auto;
+  display: flex;
+  align-items: center;
   height: 100%;
   max-width: 100%;
   width: 1024px;
-  align-items: center;
 }
 
 .bodycontainer {
@@ -40,53 +48,68 @@ h3 {
 
 .navbar {
   display: flex;
-  font-size: 30px;
-  background-color: orange;
-  height: 100px;
   align-items: center;
+  background-color: #d0ffff;
+  font-size: 16px;
+  height: 64px;
 }
 
 .navelement {
   display: flex;
-  height: 100%;
-  width: calc(100% / 5);
   align-items: center;
+  height: 100%;
+  padding: 0px 24px;
 }
 
-.navelement:hover {
-  background-color: red;
+.navbar > .navcontainer > a > .navelement:hover {
+  background-color: rgba(164, 74, 255, 0.075);
 }
 
 .navelement > h3 {
-  width: 100%;
   text-align: center;
+  width: 100%;
 }
 
 .title {
+  text-align: center;
   padding: 50px 20px 75px;
   font-size: 40px;
-  text-align: center;
 }
 
 .header {
-  font-size: 20px;
   padding: 50px 20px;
+  font-size: 20px;
 }
 
 .pictures {
-  padding: 20px;
-  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .picq {
-  width: calc(100% / 3);
   padding: 10px;
+  width: calc(100% / 3);
 }
 
 .picq > img {
   display: block;
   width: 100%;
+}
+
+.footspace {
+  height: 200px;
+}
+
+.footer {
+  background-color: #d0ffff;
+  padding: 100px 0px;
+}
+
+.footcontainer {
+  margin: auto;
+  max-width: 100%;
+  width: 1024px;
 }
