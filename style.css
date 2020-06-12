@@ -12,7 +12,8 @@
 }
 
 body {
-  background: #fafcff;
+  background: #050f1f;
+  color: #fcfdff;
   font-family: "Lato", sans-serif;
   font-size: 24px;
   min-height: 100vh;
@@ -20,7 +21,10 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   font-family: "Jost", sans-serif;
 }
 
@@ -28,7 +32,7 @@ h3 {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #000000;
+  color: rgba(255, 255, 255, 0.85);
   height: 100%;
 }
 .navcontainer {
@@ -49,7 +53,7 @@ h3 {
 .navbar {
   display: flex;
   align-items: center;
-  background-color: #d0ffff;
+  background-color: #121b26;
   font-size: 16px;
   height: 64px;
 }
@@ -65,8 +69,7 @@ h3 {
 
 .navbar > .navcontainer > a > .navelement:hover {
   background-color: rgba(164, 74, 255, 0.075);
-  color: #e3aa10;
-  font-size: 120%;
+  color: rgba(232, 235, 75, 0.85);
 }
 
 .navelement > h3 {
@@ -74,15 +77,34 @@ h3 {
   width: 100%;
 }
 
+.footspace {
+  height: 200px;
+}
+
+.footer {
+  background-color: #121b26;
+  padding: 100px 0px;
+}
+
+.footcontainer {
+  margin: auto;
+  max-width: 100%;
+  width: 1024px;
+}
+
 .title {
   text-align: center;
-  padding: 50px 20px 75px;
+  padding: 350px 20px 500px;
   font-size: 40px;
 }
 
 .header {
   padding: 50px 20px;
   font-size: 20px;
+}
+
+.creator {
+  padding: 0px 0px 100px;
 }
 
 .pictures {
@@ -101,19 +123,4 @@ h3 {
 .picq > img {
   display: block;
   width: 100%;
-}
-
-.footspace {
-  height: 200px;
-}
-
-.footer {
-  background-color: #d0ffff;
-  padding: 100px 0px;
-}
-
-.footcontainer {
-  margin: auto;
-  max-width: 100%;
-  width: 1024px;
 }
