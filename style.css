@@ -105,7 +105,36 @@ h6 {
 }
 
 .creator {
-  padding: 0px 0px 100px;
+  display: flex;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.creatorcontainer {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.name {
+  text-align: center;
+  width: 100%;
+}
+
+.face {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.faceq > img {
+  width: 100%;
+}
+
+.job {
+  width: 100%;
 }
 
 .pictures {
