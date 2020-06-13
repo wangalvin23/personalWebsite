@@ -36,6 +36,7 @@ h6 {
   color: rgba(255, 255, 255, 0.85);
   height: 100%;
 }
+
 .navcontainer {
   margin: auto;
   display: flex;
@@ -109,13 +110,21 @@ h6 {
   align-items: center;
   background: linear-gradient(270deg, #17a6ff, #1736ff);
   color: rgba(255, 255, 255, 0.9);
-  padding: 50px 0px;
+  padding: 100px 0px;
 }
 
 .creatorcontainer {
   display: flex;
   align-items: center;
   width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+
+.facecontainer {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 0px 100px 0px 0px;
 }
 
 .name {
@@ -124,15 +133,16 @@ h6 {
 }
 
 .nameq {
-  font-size: 72px;
+  font-size: 84px;
 }
 
 .job {
-  font-size: 32px;
+  font-size: 36px;
 }
 
 .slogan {
-  padding: 10px;
+  font-size: 32px;
+  padding: 20px 0px 0px;
 }
 
 .face {
