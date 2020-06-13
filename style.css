@@ -121,6 +121,18 @@ h6 {
   width: 100%;
 }
 
+.nameq {
+  font-size: 72px;
+}
+
+.job {
+  font-size: 32px;
+}
+
+.slogan {
+  padding: 10px;
+}
+
 .face {
   flex-wrap: wrap;
   display: flex;
@@ -129,12 +141,10 @@ h6 {
   width: 100%;
 }
 
-.faceq > img {
-  width: 100%;
-}
-
-.job {
-  width: 100%;
+.faceq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pictures {
