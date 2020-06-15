@@ -39,18 +39,6 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 
-/* Index */
-
-.title {
-  text-align: center;
-  padding: 350px 20px 500px;
-  font-size: 40px;
-}
-
-.paragraph {
-  padding: 150px 0px 0px;
-}
-
 /* Navbar */
 
 .navbar {
@@ -92,7 +80,7 @@ h6 {
   color: rgba(232, 235, 75, 0.85);
 }
 
-.navelement > h3 {
+.navbar > .navcontainer > a > .navelement > h3 {
   text-align: center;
   width: 100%;
 }
@@ -105,13 +93,59 @@ h6 {
 
 .footer {
   background-color: #121b26;
-  padding: 100px 0px;
+  color: rgba(255, 255, 255, 0.75);
+  height: 300px;
 }
 
 .footer > .footcontainer {
   margin: auto;
-  max-width: 100%;
-  width: 1024px;
+  display: flex;
+  align-items: center;
+  padding: 50px 0px;
+  width: 100%;
+}
+
+.footer > .footcontainer > .name {
+  width: calc(100% / 3);
+}
+
+.footer > .footcontainer > .name > .nameq {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+}
+
+.footer > .footcontainer > .name > .job {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+}
+
+.footer > .footcontainer > .name > .slogan {
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+}
+
+.footer > .footcontainer > .footlink {
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+.footer > .footcontainer > .footlink > .header {
+  font-size: 24px;
+}
+
+/* Index */
+
+.title {
+  text-align: center;
+  padding: 350px 20px 500px;
+  font-size: 40px;
+}
+
+.paragraph {
+  padding: 150px 0px 0px;
 }
 
 /* Creator */
