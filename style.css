@@ -11,6 +11,8 @@
   padding: 0;
 }
 
+/* Body */
+
 body {
   background: #050f1f;
   color: rgba(255, 255, 255, 0.9);
@@ -19,6 +21,14 @@ body {
   line-height: 1.5;
   min-height: 100vh;
 }
+
+.bodycontainer {
+  margin: auto;
+  max-width: 100%;
+  width: 1024px;
+}
+
+/* General */
 
 h1,
 h2,
@@ -29,28 +39,19 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 
-.navbar > .navcontainer > a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.85);
-  height: 100%;
+/* Index */
+
+.title {
+  text-align: center;
+  padding: 350px 20px 500px;
+  font-size: 40px;
 }
 
-.navcontainer {
-  margin: auto;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  max-width: 100%;
-  width: 1024px;
+.paragraph {
+  padding: 150px 0px 0px;
 }
 
-.bodycontainer {
-  margin: auto;
-  max-width: 100%;
-  width: 1024px;
-}
+/* Navbar */
 
 .navbar {
   display: flex;
@@ -58,6 +59,23 @@ h6 {
   background-color: #121b26;
   font-size: 16px;
   height: 64px;
+}
+
+.navbar > .navcontainer {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 100%;
+  width: 1024px;
+}
+
+.navbar > .navcontainer > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+  height: 100%;
 }
 
 .navbar > .navcontainer > a > .navelement {
@@ -79,6 +97,8 @@ h6 {
   width: 100%;
 }
 
+/* Footer */
+
 .footspace {
   height: 200px;
 }
@@ -88,22 +108,13 @@ h6 {
   padding: 100px 0px;
 }
 
-.footcontainer {
+.footer > .footcontainer {
   margin: auto;
   max-width: 100%;
   width: 1024px;
 }
 
-.title {
-  text-align: center;
-  padding: 350px 20px 500px;
-  font-size: 40px;
-}
-
-.header {
-  padding: 50px 20px;
-  font-size: 20px;
-}
+/* Creator */
 
 .creator {
   display: flex;
@@ -113,39 +124,32 @@ h6 {
   padding: 100px 0px;
 }
 
-.creatorcontainer {
+.creator > .creatorcontainer {
   display: flex;
   align-items: center;
   width: 50%;
   padding: 0px 0px 0px 100px;
 }
 
-.facecontainer {
-  display: flex;
-  align-items: center;
-  width: 50%;
-  padding: 0px 100px 0px 0px;
-}
-
-.name {
+.creator > .creatorcontainer > .name {
   text-align: center;
   width: 100%;
 }
 
-.nameq {
+.creator > .creatorcontainer > .name > .nameq {
   font-size: 84px;
 }
 
-.job {
+.creator > .creatorcontainer > .name > .job {
   font-size: 36px;
 }
 
-.slogan {
+.creator > .creatorcontainer > .name > .slogan {
   font-size: 32px;
   padding: 20px 0px 0px;
 }
 
-.face {
+.creator > .facecontainer > .face {
   flex-wrap: wrap;
   display: flex;
   align-items: center;
@@ -153,13 +157,27 @@ h6 {
   width: 100%;
 }
 
-.faceq {
+.creator > .facecontainer {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 0px 100px 0px 0px;
+}
+
+.creator > .facecontainer > .face > .faceq {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.pictures {
+/* Art Galleries */
+
+.gallery > .row > .header {
+  padding: 50px 20px;
+  font-size: 20px;
+}
+
+.gallery > .row > .pictures {
   flex-wrap: wrap;
   display: flex;
   align-items: center;
@@ -167,7 +185,7 @@ h6 {
   padding: 20px;
 }
 
-.picq {
+.gallery > .row > .pictures > .picq {
   padding: 10px;
   width: calc(100% / 3);
 }
