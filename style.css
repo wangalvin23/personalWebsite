@@ -128,12 +128,32 @@ h6 {
 }
 
 .footer > .footcontainer > .footlink {
-  text-align: center;
   width: calc(100% / 3);
 }
 
 .footer > .footcontainer > .footlink > .header {
+  text-align: center;
+  text-decoration: underline;
   font-size: 24px;
+}
+
+.footer > .footcontainer > .footlink > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+}
+
+.footer > .footcontainer > .footlink > a > .footelement {
+  transition-property: all;
+  transition-duration: 400ms;
+}
+
+.footer > .footcontainer > .footlink > a > .footelement:hover {
+  text-decoration: underline;
+  color: rgba(232, 235, 75, 0.85);
 }
 
 /* Index */
