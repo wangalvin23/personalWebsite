@@ -137,21 +137,21 @@ h6 {
   font-size: 24px;
 }
 
-.footer > .footcontainer > .footlink > a {
+.footer > .footcontainer > .footlink > .footelement {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.75);
   width: 100%;
 }
 
-.footer > .footcontainer > .footlink > a > .footelement {
+.footer > .footcontainer > .footlink > .footelement > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
   transition-property: all;
   transition-duration: 400ms;
 }
 
-.footer > .footcontainer > .footlink > a > .footelement:hover {
+.footer > .footcontainer > .footlink > .footelement > a:hover {
   text-decoration: underline;
   color: rgba(232, 235, 75, 0.85);
 }
