@@ -227,8 +227,9 @@ h6 {
 /* Art Galleries */
 
 .gallery > .row > .bodycontainer > .header {
-  padding: 50px 20px;
+  color: rgba(232, 235, 75, 0.85);
   font-size: 20px;
+  padding: 50px 20px;
 }
 
 .gallery > .row > .pictures {
