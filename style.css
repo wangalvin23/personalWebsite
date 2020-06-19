@@ -226,13 +226,112 @@ h6 {
 
 /* Art Galleries */
 
-.gallery > .row > .bodycontainer > .header {
+.gallery > section > .row > .bodycontainer {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  width: 1024px;
+}
+
+.gallery > section > .row > .bodycontainer > .header {
   color: rgba(232, 235, 75, 0.85);
   font-size: 20px;
   padding: 50px 20px;
+  width: 50%;
 }
 
-.gallery > .row > .pictures {
+.gallery > section > .row > .bodycontainer > .header > h2 {
+  width: 100%;
+}
+
+.gallery > section > .row > .bodycontainer > .artnav {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.gallery > section > .row > .bodycontainer > .lastartnav {
+  display: flex;
+  align-items: center;
+  padding: 30px 0px 0px;
+  width: 100%;
+}
+
+.gallery > section > .row > .bodycontainer > .artnav > .navcontainer,
+.gallery > section > .row > .bodycontainer > .lastartnav > .navcontainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.gallery
+  > section
+  > .row
+  > .bodycontainer
+  > .artnav
+  > .navcontainer
+  > .navelement,
+.gallery
+  > section
+  > .row
+  > .bodycontainer
+  > .lastartnav
+  > .navcontainer
+  > .navelement {
+  display: flex;
+  align-items: center;
+  width: calc(100% / 3);
+}
+
+.gallery
+  > section
+  > .row
+  > .bodycontainer
+  > .artnav
+  > .navcontainer
+  > .navelement
+  > a,
+.gallery
+  > section
+  > .row
+  > .bodycontainer
+  > .lastartnav
+  > .navcontainer
+  > .navelement
+  > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: all;
+  transition-duration: 400ms;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  width: 100%;
+}
+
+.gallery
+  > section
+  > .row
+  > .bodycontainer
+  > .artnav
+  > .navcontainer
+  > .navelement
+  > a:hover,
+.gallery
+  > section
+  > .row
+  > .bodycontainer
+  > .lastartnav
+  > .navcontainer
+  > .navelement
+  > a:hover {
+  text-decoration: underline;
+  color: rgba(232, 235, 75, 0.85);
+}
+
+.gallery > section > .row > .pictures {
   flex-wrap: wrap;
   display: flex;
   align-items: center;
@@ -241,7 +340,7 @@ h6 {
   padding: 20px;
 }
 
-.gallery > .row > .pictures > .picq {
+.gallery > section > .row > .pictures > .picq {
   padding: 10px;
   height: 640px;
 }
