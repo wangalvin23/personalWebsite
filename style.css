@@ -87,10 +87,6 @@ h6 {
 
 /* Footer */
 
-.footspace {
-  height: 200px;
-}
-
 .footer {
   background-color: #121b26;
   color: rgba(255, 255, 255, 0.75);
@@ -165,7 +161,7 @@ h6 {
 }
 
 .paragraph {
-  padding: 150px 0px 0px;
+  padding: 150px 0px;
 }
 
 /* Creator */
@@ -181,8 +177,8 @@ h6 {
 .creator > .creatorcontainer {
   display: flex;
   align-items: center;
-  width: 50%;
   padding: 0px 0px 0px 100px;
+  width: 50%;
 }
 
 .creator > .creatorcontainer > .name {
@@ -203,6 +199,13 @@ h6 {
   padding: 20px 0px 0px;
 }
 
+.creator > .facecontainer {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 0px 100px 0px 0px;
+}
+
 .creator > .facecontainer > .face {
   flex-wrap: wrap;
   display: flex;
@@ -211,17 +214,55 @@ h6 {
   width: 100%;
 }
 
-.creator > .facecontainer {
-  display: flex;
-  align-items: center;
-  width: 50%;
-  padding: 0px 100px 0px 0px;
-}
-
 .creator > .facecontainer > .face > .faceq {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Highlights */
+
+.highlight {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#17a6ff, #1736ff);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 50px 0px;
+  width: 100%;
+}
+
+.highlight > .hlcontainer {
+  width: calc(100% / 3);
+}
+
+.highlight > .hlcontainer > .topic,
+.highlight > .hlcontainer > .description {
+  text-align: center;
+  width: 100%;
+}
+
+.highlight > .hlcontainer > .topic {
+  font-size: 56px;
+}
+
+.highlight > .hlcontainer > .description {
+  font-size: 28px;
+}
+
+.highlight > .pictures {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 3);
+}
+
+.highlight > .pictures > .picq {
+  height: 300px;
+}
+
+.highlight > .pictures > .picq > img {
+  height: 100%;
 }
 
 /* Art Galleries */
@@ -254,7 +295,7 @@ h6 {
 .gallery > section > .row > .bodycontainer > .lastartnav {
   display: flex;
   align-items: center;
-  padding: 30px 0px 0px;
+  padding: 30px 0px;
   width: 100%;
 }
 
