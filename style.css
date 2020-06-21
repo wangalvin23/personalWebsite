@@ -265,6 +265,51 @@ h6 {
   height: 100%;
 }
 
+/* Projects */
+
+.project {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#1736ff, #17a6ff);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 50px 0px;
+  width: 100%;
+}
+
+.project > .projcontainer {
+  width: 50%;
+}
+
+.project > .projcontainer > .topic,
+.project > .projcontainer > .description {
+  text-align: center;
+  width: 100%;
+}
+
+.project > .projcontainer > .topic {
+  font-size: 56px;
+}
+
+.project > .projcontainer > .description {
+  font-size: 28px;
+}
+
+.project > .pictures {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.project > .pictures > .picq {
+  height: 300px;
+}
+
+.project > .pictures > .picq > img {
+  height: 100%;
+}
+
 /* Art Galleries */
 
 .gallery > section > .row > .bodycontainer {
