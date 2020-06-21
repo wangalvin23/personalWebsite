@@ -101,6 +101,13 @@ h6 {
   width: 100%;
 }
 
+.footer > .footcontainer > .name > .update {
+  text-align: center;
+  font-size: 14px;
+  padding: 50px 0px 0px;
+  width: 100%;
+}
+
 .footer > .footcontainer > .name {
   width: calc(100% / 3);
 }
