@@ -14,7 +14,7 @@
 /* Body */
 
 body {
-  background: #050f1f;
+  background: #0f151c;
   color: rgba(255, 255, 255, 0.9);
   font-family: "Lato", sans-serif;
   font-size: 24px;
@@ -97,13 +97,13 @@ h6 {
   margin: auto;
   display: flex;
   align-items: center;
-  padding: 75px 0px 125px;
+  padding: 30px 0px;
   width: 100%;
 }
 
 .footer > .footcontainer > .name > .update {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   padding: 50px 0px 0px;
   width: 100%;
 }
@@ -168,7 +168,18 @@ h6 {
 }
 
 .paragraph {
-  padding: 150px 0px;
+  font-size: 24px;
+  padding: 48px 0px 96px;
+}
+
+.paragraph > .text > .header {
+  text-align: center;
+  font-size: 32px;
+  padding: 48px 0px 0px;
+}
+
+.paragraph > .text > p {
+  padding: 24px 0px 0px;
 }
 
 /* Creator */
@@ -176,7 +187,7 @@ h6 {
 .creator {
   display: flex;
   align-items: center;
-  background: linear-gradient(270deg, #17a6ff, #1736ff);
+  background: linear-gradient(90deg, #0f151c, #47463e, #0f151c);
   color: rgba(255, 255, 255, 0.9);
   padding: 100px 0px;
 }
@@ -227,64 +238,19 @@ h6 {
   justify-content: center;
 }
 
-/* Highlights */
-
-.highlight {
-  display: flex;
-  align-items: center;
-  background: linear-gradient(#17a6ff, #1736ff);
-  color: rgba(255, 255, 255, 0.9);
-  padding: 50px 0px;
-  width: 100%;
-}
-
-.highlight > .hlcontainer {
-  width: calc(100% / 3);
-}
-
-.highlight > .hlcontainer > .topic,
-.highlight > .hlcontainer > .description {
-  text-align: center;
-  width: 100%;
-}
-
-.highlight > .hlcontainer > .topic {
-  font-size: 56px;
-}
-
-.highlight > .hlcontainer > .description {
-  font-size: 28px;
-}
-
-.highlight > .pictures {
-  flex-wrap: wrap;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: calc(100% / 3);
-}
-
-.highlight > .pictures > .picq {
-  height: 300px;
-}
-
-.highlight > .pictures > .picq > img {
-  height: 100%;
-}
-
 /* Projects */
 
 .project {
   display: flex;
   align-items: center;
-  background: linear-gradient(#1736ff, #17a6ff);
+  background: linear-gradient(0deg, #0f151c, #47463e);
   color: rgba(255, 255, 255, 0.9);
   padding: 50px 0px;
   width: 100%;
 }
 
 .project > .projcontainer {
-  width: 50%;
+  width: 75%;
 }
 
 .project > .projcontainer > .topic,
@@ -310,17 +276,20 @@ h6 {
 }
 
 .project > .pictures > .picq {
-  height: 300px;
+  width: 300px;
 }
 
 .project > .pictures > .picq > img {
-  height: 100%;
+  width: 100%;
 }
 
 /* Art Galleries */
 
+.gallery > section > .row {
+  background: rgba(255, 251, 222, 0.125);
+}
+
 .gallery > section > .row > .bodycontainer {
-  margin: auto;
   display: flex;
   align-items: center;
   max-width: 100%;
