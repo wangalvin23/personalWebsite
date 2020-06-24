@@ -168,18 +168,62 @@ h6 {
 }
 
 .paragraph {
-  font-size: 24px;
-  padding: 48px 0px 96px;
+  font-size: 22px;
+  padding: 24px 0px 72px;
 }
 
 .paragraph > .text > .header {
   text-align: center;
-  font-size: 32px;
+  font-size: 36px;
   padding: 48px 0px 0px;
+}
+
+.paragraph > .text > .description {
+  text-align: center;
+  font-size: 32px;
+  padding: 12px 0px 0px;
 }
 
 .paragraph > .text > p {
   padding: 24px 0px 0px;
+}
+
+/* Blogs */
+
+.paragraph > .blog > .header {
+  text-align: center;
+  font-size: 36px;
+}
+
+.paragraph > .blog > .bloglink {
+  padding: 24px 0px;
+  width: 100%;
+}
+
+.paragraph > .blog > .bloglink > .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.paragraph > .blog > .bloglink > .link > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 32px;
+  transition-property: all;
+  transition-duration: 400ms;
+}
+
+.paragraph > .blog > .bloglink > .link > a:hover {
+  text-decoration: underline;
+  color: rgba(232, 235, 75, 0.85);
+}
+
+.paragraph > .blog > .bloglink > .description {
+  text-align: center;
+  font-size: 24px;
+  width: 100%;
 }
 
 /* Creator */
